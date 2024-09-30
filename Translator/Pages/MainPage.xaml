@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.Pages.MainPage">
+
+    <StackLayout Padding="10">
+        <Label Text="Real-Time Image Translation" FontSize="Large" HorizontalOptions="Center" />
+
+        <Button Text="Pick Image from Gallery" Clicked="OnPickImageClicked" />
+        <Button Text="Capture Image from Camera" Clicked="OnCaptureImageClicked" />
+
+        <Image x:Name="CapturedImage" Aspect="AspectFit" HeightRequest="200" />
+
+        <Label Text="Detected Text" FontSize="Medium" />
+        <Editor x:Name="DetectedText" IsReadOnly="True" HeightRequest="100" />
+
+        <Label Text="Translated Text" FontSize="Medium" />
+        <Editor x:Name="TranslatedText" IsReadOnly="True" HeightRequest="100" />
+
+    </StackLayout>
+
+</ContentPage>
