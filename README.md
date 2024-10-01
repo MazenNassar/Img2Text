@@ -1,2 +1,2 @@
-Image To Text And Also A Translator Program Written In C#/.Net Maui
+This project is an image-to-text conversion program built using C# and .Net MAUI (Multi-platform App UI). This program extracts text from images and also includes a translation feature, enabling users to convert and translate text from images. It leverages .NET MAUI's cross-platform capabilities, potentially allowing deployment across various platforms like Windows, Android, and iOS.
 ![alt text](https://github.com/MazenNassar/Img2Text/blob/main/image.png?raw=true)
